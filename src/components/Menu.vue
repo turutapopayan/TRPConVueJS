@@ -2,17 +2,17 @@
 <div>
     <header class="header">
         <div class="contenedor logo-contenedor">
-            <img class="logo" src="../assets/tur.png" alt="">
+            <img class="logo" src="../assets/logo9.png" alt="">
             <nav class="nav">
         
              <ul>
-                <li><router-link to="/Home">INICIO</router-link></li>
-                <li><router-link to="/RutasFavoritas">RUTAS FAVORITAS</router-link></li>
-                <li><router-link to="/Nosotros">NOSOTROS</router-link></li>
-                <li><router-link to="/Turismo">TURISMO</router-link></li>
-                <li><router-link to="/NuestraCultura">NUESTRA CULTURA</router-link></li>
-                <li><router-link to="/Registrarme">REGISTRARME</router-link></li>
-                <li><router-link to="/IniciarSesion">INICIAR SESIÓN</router-link></li>
+                <li><router-link to="/Home">Inicio</router-link></li>
+                <li><router-link to="/RutasFavoritas">Rutas Favoritas</router-link></li>
+                <li><router-link to="/Nosotros">Nosotros</router-link></li>
+                <li><router-link to="/Turismo">Turismo</router-link></li>
+                <li><router-link to="/NuestraCultura">Nuestra Cultura</router-link></li>
+                <li><router-link to="/Registrarme">Registrarse</router-link></li>
+                <li><router-link to="/IniciarSesion">Iniciar Sesión</router-link></li>
              </ul>
         
             </nav>
@@ -35,13 +35,16 @@ export default {
 .contenedor{
     width: 90%;
     margin: 0 auto;
+
+    
 }
 
 .header{
-    background: rgba(255, 174, 0, 0.863);
+    /* background: rgba(255, 174, 0, 0.863);
+    color: black; */
+    background: #a587bf;
     color: black;
     padding: 0.5rem 0;
-
     position:fixed;
     left: 0;
     top: 0;
@@ -50,14 +53,17 @@ export default {
 .header a{
     color: black;
     text-decoration: none;
+    
 }
 .logo-contenedor{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; 
+    
     align-items: center;
 }
 .logo{
-    width: 15%;
+    width: 7%;
+    
 }
 
 .nav ul{
@@ -75,11 +81,13 @@ export default {
     border-radius: 5px;
 }
 .nav ul li a:hover {
-    background: rgb(245, 221, 4);
+    /* background: rgb(245, 221, 4); */
+    background: #fccc8b;
 }
 
 .main{
     padding: 12rem 0rem;
+    /* background-color: #abd49a; */
 }
 
 h1{
@@ -95,5 +103,7 @@ h1{
     display: flex;
     justify-content: center;
 }
+
+
 
 </style>

@@ -2,7 +2,7 @@
   <div>
     <Menu/>
     <nav class="img">
-    <img src="../assets/logo9.png" alt="">
+    <img src="../assets/movilidad1.jpeg" alt="">
     </nav>
     <nav class="nav">
       <section>
